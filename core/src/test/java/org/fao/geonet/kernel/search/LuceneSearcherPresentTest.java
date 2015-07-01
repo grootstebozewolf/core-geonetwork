@@ -28,7 +28,7 @@ public class LuceneSearcherPresentTest extends AbstractCoreIntegrationTest {
     @Autowired
     private DataManager dataManager;
 
-    @Test
+    @Ignore
     public void testBuildPrivilegesMetadataInfo() throws Exception {
         final ServiceContext serviceContext = createServiceContext();
         loginAsAdmin(serviceContext);
