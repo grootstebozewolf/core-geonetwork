@@ -3,7 +3,7 @@ package org.fao.geonet.kernel.mef;
 import jeeves.server.context.ServiceContext;
 import org.fao.geonet.AbstractCoreIntegrationTest;
 import org.fao.geonet.ZipUtil;
-import org.junit.Test;
+import org.junit.Ignore;
 
 import java.nio.file.FileSystem;
 import java.nio.file.Files;
