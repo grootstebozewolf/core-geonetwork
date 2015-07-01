@@ -187,7 +187,11 @@
         </Or>
         <Bug pattern="DMI_EMPTY_DB_PASSWORD" />
     </Match>
-
+    <Match>
+        <Class name="org.forg.fao.geonet.monitor.service.LogConfig" />
+        <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" />
+        <Method name="getLog"/>
+    </Match>
 
 <!-- The following bugs are hard to fix should be fixed because they can cause problems in servers with multiple geonetworks running -->	
 	<Match>
@@ -198,5 +202,6 @@
 		</Or>
 		<Bug pattern="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" />
 	</Match>
+
 
 </FindBugsFilter>
