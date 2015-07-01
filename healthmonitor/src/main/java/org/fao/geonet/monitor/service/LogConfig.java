@@ -31,8 +31,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class LogConfig {
     private FileAppender fileAppender = null;
     
-    private final String fileAppenderName = "fileAppender";
-    private final int maxLines = 20000;
+    private final static String fileAppenderName = "fileAppender";
+    private final static int maxLines = 20000;
 
     @PostConstruct
     public void init() throws Exception {
