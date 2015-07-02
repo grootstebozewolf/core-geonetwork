@@ -189,7 +189,7 @@
     </Match>
     <Match>
         <Class name="org.forg.fao.geonet.monitor.service.LogConfig" />
-        <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" />
+        <Bug pattern="NP_NULL_ON_SOME_PATH_EXCEPTION" />
         <Method name="getLog"/>
     </Match>
 
