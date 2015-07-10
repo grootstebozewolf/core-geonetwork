@@ -31,7 +31,7 @@ public class LuceneSearcherPresentTest extends AbstractCoreIntegrationTest {
     private DataManager dataManager;
 
     @Test
-    public void testDummy {}
+    public void testDummy() {}
 
     @Ignore
     public void testBuildPrivilegesMetadataInfo() throws Exception {
