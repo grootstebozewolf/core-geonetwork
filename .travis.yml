@@ -5,4 +5,4 @@ jdk:
   - openjdk7
 before_install:
   - export MAVEN_OPTS="-Xmx512M -XX:MaxPermSize=256M"
-script: mvn integration-test --fail-at-end
+script: mvn test

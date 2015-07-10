@@ -42,4 +42,10 @@ public class MEFExporterIntegrationTest extends AbstractCoreIntegrationTest {
             assertFalse(Files.exists(zipFs.getPath("public")));
         }
     }
+
+    @Test
+    public void testDummy() {
+
+    }
+
 }
